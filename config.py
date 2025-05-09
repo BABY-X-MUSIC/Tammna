@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://oliva:oliva123@cluster0.6cohqfv.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/TAMANNA_MUSIC_BOT?start=_tgr_ZNQBADY2ZmE1")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TAMANNA_MUSIC_BOT?start=_tgr_ZNQBADY2ZmE1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/ll_P_U_L_lI")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/UFC_NETWORK")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -81,13 +81,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/a5210m.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/ahaa9e.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/a5210m.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/ahaa9e.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/6tled7.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/ahaa9e.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/ahaa9e.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8234d704952738ebcda7f.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8d02ff3bde400e465219a.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/e24f4a5f695ec5576a8f3.jpg"
